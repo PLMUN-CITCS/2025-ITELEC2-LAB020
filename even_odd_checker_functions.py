@@ -13,6 +13,8 @@ def check_even_odd(number):
         result += "Even number."
     else:
         result += "Odd number."
+    
+    return result
 
 
 # Main program flow
