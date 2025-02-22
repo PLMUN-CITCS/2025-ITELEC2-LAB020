@@ -7,11 +7,12 @@ def get_integer_input():
 
 def check_even_odd(number):
     """Checks if a number is even or odd and returns a message."""
+    result = f"{number} is an "
 
     if number % 2 == 0:
-        return f"{number} is an Even number."
+        result += "Even number."
     else:
-        return f"{number} is an Odd number."
+        result += "Odd number."
 
 
 # Main program flow
